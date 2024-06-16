@@ -5,7 +5,7 @@
  * @returns 
  */
 const login = async (email, password) => {
-    return fetch('http://localhost:3001/login', {
+    return fetch('https://frying-nemo-api.onrender.com/login', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

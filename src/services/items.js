@@ -1,5 +1,5 @@
 // const menuURL = `${process.env.REACT_APP_SERVER_URL}`; // TODO
-const menuURL = `http://localhost:3001/menu`;
+const menuURL = `https://frying-nemo-api.onrender.com/menu`;
 
 /**
  * Fake Fetching of single item
